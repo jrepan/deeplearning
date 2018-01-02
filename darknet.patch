@@ -1,0 +1,8 @@
+39c39
+< lib = CDLL("libdarknet.so", RTLD_GLOBAL)
+---
+> lib = CDLL("./libdarknet.so", RTLD_GLOBAL)
+139c139
+<     print r
+---
+>     print (r)
